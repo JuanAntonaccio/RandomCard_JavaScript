@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  display: flex;
+  display: block;
+  justify-content: center;
+  width: 350px;
+  height: 500px;
+  position: relative;
+  top: 40%;
+  left: 40%;
+  margin: -25px 0 0 -25px;
+  border-radius: 15px;
+}
+.palo1 {
+  /*background-color: lightgreen;*/
+  width: 80px;
+  height: 80px;
+  font-size: 400%;
+}
+.numero {
+  margin-top: 40px;
+  margin-left: 60px;
+  /* background-color: lightgreen;*/
+  width: 200px;
+  height: 280px;
+  font-size: 900%;
+}
+.palo2 {
+  /*background-color: lightgreen;*/
+  margin-top: 30px;
+  float: right;
+  width: 80px;
+  height: 80px;
+  font-size: 400%;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Opera, Chrome, and Safari */
+}
