@@ -5,8 +5,7 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
-  //write your code here
+function mostrar_carta() {
   let lista = [
     "A",
     "2",
@@ -35,6 +34,13 @@ window.onload = function() {
     palo1.style.color = "red";
     palo2.style.color = "red";
   }
-};
+}
 
+window.onload = function() {
+  //write your code here
+  mostrar_carta();
+};
+document.getElementById("btn").onclick = function() {
+  mostrar_carta();
+};
 //♦ ♥ ♠ ♣
