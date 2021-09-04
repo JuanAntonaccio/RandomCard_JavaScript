@@ -30,9 +30,13 @@ function mostrar_carta() {
   numero.innerHTML = lista[ran];
   palo1.innerHTML = lista_palos[ran_palos];
   palo2.innerHTML = lista_palos[ran_palos];
+
   if (ran_palos < 2) {
     palo1.style.color = "red";
     palo2.style.color = "red";
+  } else {
+    palo1.style.color = "black";
+    palo2.style.color = "black";
   }
 }
 
